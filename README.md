@@ -14,6 +14,14 @@ Files used
 *washington.csv
 *bikeshare.py
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+### Software/Dependencies
+*Python 3
+*Numpy
+*Pandas
+*Text Editor(e.g Atom,VS Code,Sublime)
+*Terminal Application
+
+
+### Credits
+* [SeleniumHQ README.md](https://github.com/SeleniumHQ/selenium/edit/master/README.md) helps with markdown
