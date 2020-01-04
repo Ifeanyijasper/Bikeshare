@@ -9,19 +9,20 @@ This project is use to explore data related to bike share systems for three majo
 
 ### Files used
 Files used
-*chicago.csv
-*new_york_city.csv
-*washington.csv
-*bikeshare.py
+* chicago.csv
+* new_york_city.csv
+* washington.csv
+* bikeshare.py
 
 
 ### Software/Dependencies
-*Python 3
-*Numpy
-*Pandas
-*Text Editor(e.g Atom,VS Code,Sublime)
-*Terminal Application
+* Python 3
+* Numpy
+* Pandas
+* Text Editor(e.g Atom,VS Code,Sublime)
+* Terminal Application
 
 
 ### Credits
 * [SeleniumHQ README.md](https://github.com/SeleniumHQ/selenium/edit/master/README.md) helps with markdown
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
