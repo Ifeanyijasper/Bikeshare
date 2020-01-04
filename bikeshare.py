@@ -224,8 +224,9 @@ def user_stats(df):
 
 def main():
     while True:
+        #Unpack the raw data input from the user
         city ,month, day = get_filters() 
-        
+        #Load the data to the dataframe
         df = load_data(city, month, day)
 
         time_stats(df)
