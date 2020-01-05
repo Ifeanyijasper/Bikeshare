@@ -197,12 +197,9 @@ def user_stats(df):
     # TO DO: Display earliest, most recent, and most common year of birth
     print('\nCalculating the next statistic....')
     try:
-        birth_year = df['Birth Year'].min()
-        print('\nThe earliest birth year:',birth_year)
-        birth_year = df['Birth Year'].max()
-        print('\nThe most recent birth year :',birth_year)
-        birth_year = df['Birth Year'].mode()[0]
-        print('\nThe most common birth year :',birth_year)
+        print('\nThe earliest birth year:',df['Birth Year'].min())
+        print('\nThe most recent birth year :',df['Birth Year'].max())
+        print('\nThe most common birth year :',df['Birth Year'].mode()[0])
     except:
         print("We're sorry! There is no data of user birth_year for this city")
 # Try and Except Method is used to prevent Data set with no data for Gender and birth year from creating errors
