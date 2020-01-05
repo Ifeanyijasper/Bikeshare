@@ -50,18 +50,17 @@ def get_filters():
             # TO DO: get user input for month (all, january, february, ... , june)
             while True:
                 month = str(input("Which month? January, February, March, April, May, June \n")).lower()
-                if month in ['january', 'february', 'march', 'april', 'may', 'june','all']:              
+                if month in ['january', 'february', 'march', 'april', 'may', 'june']:              
                     break
                 print('Please enter a valid month')
             # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
             day = str(input("Please type out the day name in full \n")).lower()
-            if day in ["sunday","monday","tuesday","wednesday","thursday","friday","saturday","all"]:
+            if day in ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]:
                 break
             print('Please enter a valid day name...... Repeat')
         elif data == 'none':
             # set month and day to all
-            month = 'all'
-            day = 'all'
+            month = day = 'all'
             break
     print('-'*40)
     return city,month,day
