@@ -185,14 +185,12 @@ def user_stats(df):
 
     # TO DO: Display counts of user types
     print('\nCalculating the first statistic....')
-    user_type = df['User Type'].value_counts()
-    print('User Type classification:\n',user_type)
+    print('User Type classification:\n',df['User Type'].value_counts())
 
     # TO DO: Display counts of gender
     print('\nCalculating the next statistic....')
     try:
-        gender = df['Gender'].value_counts()
-        print('Gender distribution:\n',gender)
+        print('Gender distribution:\n',df['Gender'].value_counts())
     except:
         print("We're sorry! There is no data of user genders for this city")
 
